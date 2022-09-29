@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*Tipos de operadores:
+            -Asignacion
+            -Matematico o Aritmetico
+            -Incremento o decremento
+            -Operadores logicos de comparacion
+                -Negacion
+                -AND
+                -OR
+                 */
+    
+        /*Asignacion son los que nios permiten asignar valores
+        a una variable. se decalara sin valor para que depues 
+        podamos trabajar ty asignarles otro valor si se requiere */
+        var nombre, primero, pais;
+        nombre = 'carlos';
+
+        /* */
+        var num1 = 10;
+        var num2 = 5;
+        var resultado = num1 + num2;
+        document.write(resultado);
+
+        /*Incremento y decremento */
+        var numero = 5;
+        var resultado2 = numero++;
+        document.write('<br>');
+        document.write(resultado2);
+
+        /*IOperadores logicos de compracion 
+            == Igual a
+            === Igual en valor y en tipo
+            != No iguales
+            !== No iguales en valor y tipo
+            > Mayor que
+            < Menor que
+            <= Mayor o igual que
+            >= Menor o igual que
+            ! Negacion
+            && AND agrega dos comparaciones
+            || OR que se cumpla una o la otra de las comparaciones
+            */
+            
+        var numero3 = 5;
+        var numero4 = 5;
+        /* el operador == verifica que sean iguales en este caso numero3
+         y numero4 pero si quisieramos diferenciar entre el tipo de dato 
+         si una variable fuera numerica y ootra tipo texto 
+         y en una ponemos el 5 como numero y en la otra
+         '5' como cadena de texto nos daria que son iguales y para 
+         difrenciar se usa el operador === tres sigmos de = 
+         asi va difrenciar que una variable es numerica y la otra del tipo texto
+         diferencia entre valor y tipo de variable*/
+        var resultado3 = numero3 === numero4;
+        document.write('<br>');
+        document.write(resultado3);
+    </script>
+</body>
+</html>
